@@ -18,4 +18,10 @@ public class PageController
 		return "Hello";
 	}
 	
+	@GetMapping("ThirdMessahe")
+	public String message()
+	{
+		return "ThirdMessahe";
+	}
+	
 }
