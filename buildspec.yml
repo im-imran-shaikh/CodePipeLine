@@ -12,7 +12,7 @@ phases:
        - echo pre_build
   build:
     commands:
-      - mvn package
+      - mvn clean package
       - echo build
   post_build:
     commands:
