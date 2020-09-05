@@ -12,5 +12,10 @@ public class PageController
 		return "Hello, Welcome to learnjavaskills.in";
 	}
 	
+	@GetMapping("hello")
+	public String message()
+	{
+		return "Hello";
+	}
 	
 }
